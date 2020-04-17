@@ -9,24 +9,49 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Hack"
+  url = "/hack"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "ML"
+  url = "/ml"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "NLP"
+  url = "/nlp"
   weight = 40
+# [[main_right]]
+#   name = "Posts"
+#   url = "/post"
+#   weight = 70
 
-[[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 60
+# [[main_right]]
+#   name = "Publications"
+#   url = "/publication"
+#   weight = 80
+
+# [[main_right]]
+#   name = "Projects"
+#   url = "/projects"
+#   weight = 90
+
+[[main_right]]
+  name = "Categories"
+  url = "/categories"
+  weight = 95
+
+[[main_right]]
+  name = "Tags"
+  url = "/tags"
+  weight = 100
+
+
+#[[main]]
+#  name = "Contact"
+#  url = "#contact"
+#  weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -34,3 +59,84 @@
 #    name = "CV"
 #    url = "files/cv.pdf"
 #    weight = 70
+
+[[ml]]
+  name = "Overview"
+  weight = 10
+  identifier = "ml-index"
+  url = "/ml/"
+
+[[ml]]
+  name = "Introduction"
+  weight = 20
+  identifier = "intro"
+
+[[ml]]
+  name = "Evaluation and Selections of Models"
+  weight = 30
+  identifier = "models"
+
+[[ml]]
+  name = "Liner Model"
+  weight = 40
+  identifier = "liner-model"
+
+[[ml]]
+  name = "Decision Tree"
+  weight = 50
+  identifier = "decision-tree"
+
+[[ml]]
+  name = "Neural Network"
+  weight = 60
+  identifier = "neural-network"
+
+[[ml]]
+  name = "Support Vector Machine"
+  weight = 70
+  identifier = "svm"
+
+[[ml]]
+  name = "Bayesian Classification"
+  weight = 80
+  identifier = "bayesian"
+
+[[ml]]
+  name = "Integrated Learning"
+  weight = 90
+  identifier = "intergrated"
+
+[[ml]]
+  name = "Clustering"
+  weight = 100
+  identifier = "clustering"
+
+[[ml]]
+  name = "Feature Selection and Sparse Learning"
+  weight = 110
+  identifier = "sparse"
+
+[[ml]]
+  name = "Computational learning theory"
+  weight = 120
+  identifier = "complearning"
+
+[[ml]]
+  name = "Semi-supervised Learning"
+  weight = 130
+  identifier = "semi-supervised"
+
+[[ml]]
+  name = "Probabilistic Graphical Model"
+  weight = 140
+  identifier = "prob-graph"
+
+[[ml]]
+  name = "Rule-based Learning"
+  weight = 150
+  identifier = "rule"
+
+[[ml]]
+  name = "Reforcement Learning"
+  weight = 160
+  identifier = "reforcement"
